@@ -49,8 +49,7 @@ Monitor mode server (AP side)
 Monitor mode server (STA side)
 
 ```
-  wperf -s --sta --monitor=<ifname> --bssid=<bssid> \
-        --dhost=<mac> [--shost=<mac>]
+  wperf -s --sta --monitor=<ifname> --bssid=<bssid> --dhost=<mac> [--shost=<mac>]
 ```
 
 Native UDP client
@@ -62,13 +61,11 @@ Native UDP client
 Monitor mode client (AP side)
 
 ```
-  wperf -c <ip> --monitor=<ifname> --bssid=<bssid> \
-        --dhost=<mac> [--shost=<mac>]
+  wperf -c <ip> --monitor=<ifname> --bssid=<bssid> --dhost=<mac> [--shost=<mac>]
 ```
 
 Monitor mode client (STA side)
 
 ```
-  wperf -c <ip> --sta --monitor=<ifname> --bssid=<bssid> \
-        --shost=<mac> [--dhost=<mac>]
+  wperf -c <ip> --sta --monitor=<ifname> --bssid=<bssid> --shost=<mac> [--dhost=<mac>]
 ```
